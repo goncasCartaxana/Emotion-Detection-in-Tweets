@@ -13,7 +13,7 @@ In the first objective of the Natural Language Processing project, a sample of T
 
 Our specific subset involved dialogues related to Netflix (@NetflixPT), RTP Notícias (@RTPNoticias), and Vodafone (@VodafonePT). The corpus contains informal conversations with abbreviations, internet slang, and English expressions.
 
-### Annotations ❓
+### Annotations
 The annotation process was individual. Emerging criteria for annotators included:
 - All humorous phrases tend to be positive.
 - A distinction between negative (-2 and -1) categories is related to the perceived level of user dissatisfaction or aggressive tone of vocabulary used.
