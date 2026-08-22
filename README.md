@@ -1,4 +1,4 @@
-# Emotion Detection in Tweets (EDT)
+# Sentiment Analysis from Tweets
 
 ## Introduction
 The Project has multiple objectives focused on detecting emotions in a dataset of tweets:
