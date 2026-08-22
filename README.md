@@ -9,6 +9,12 @@ The Project has multiple objectives focused on detecting emotions in a dataset o
 2. Train various models for tweet classification using preprocessing, text representation techniques (such as SentenceTransformer and TF-IDF), ML modeling (Multi-Layer Perceptron, Naive Bayes, Support Vector Machines), and evaluation metrics (Precision, Recall, F1-Score, and Accuracy).
 3. Classify tweet emotions using Large Language Models (LLMs), comparing different models, hyperparameters, and Prompt Engineering techniques.
 
+## Meta
+Each objective is detailed in its own meta file:
+- [Meta 1](meta/meta-1.md)
+- [Meta 2](meta/meta-2.md)
+- [Meta 3](meta/meta-3.md)
+
 ## Considerations
 Throughout the three metas relevant conclusions were drawn:
 1. In Meta 3, we explored various models (Llama3.2:3B, Phi3:3.8B, and Llama3.1:8B), temperatures (0.1, 0.3, and 0.6) and prompting techniques (zero-shot, few-shot, chain-of-thought).
