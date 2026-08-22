@@ -1,9 +1,10 @@
 # Sentiment Analysis from Tweets
 
-## Introduction
-The Project has multiple objectives focused on detecting emotions in a dataset of tweets:
+## Overview
+This project implements an end-to-end NLP framework that validates human annotation reliability, trains classical machine learning pipelines, and optimizes Large Language Models (LLMs) to classify and analyze sentiments in a Twitter dataset.
 
-### Objectives
+## Objectives
+The Project has multiple objectives focused on detecting emotions in a dataset of tweets:
 1. Evaluate and annotate a dataset, resulting in an Inter-Annotator Agreement analysis.
 2. Train various models for tweet classification using preprocessing, text representation techniques (such as SentenceTransformer and TF-IDF), ML modeling (Multi-Layer Perceptron, Naive Bayes, Support Vector Machines), and evaluation metrics (Precision, Recall, F1-Score, and Accuracy).
 3. Classify tweet emotions using Large Language Models (LLMs), comparing different models, hyperparameters, and Prompt Engineering techniques.
@@ -26,7 +27,6 @@ The annotation process was individual. Emerging criteria for annotators included
 3. Stopwords and punctuation were eliminated, and the total number of tokens and of unique tokens were determined using both tools.
 4. NLTK identified common tokens, while spaCy offered functions for entity and link identification.
 
----
 ### Agreement Analysis
 The statistical metrics used to evaluate inter-annotator agreement were Krippendorff's alpha, Cohen's Kappa, and Fleiss' Kappa.
 
